@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+results/*.json
+results/*.jsonl
+!results/.gitkeep
+
+# Instructor-only code must never be committed to the public starter.
+/instructor/
+/scripts/benchmark_bosses.py
+/scripts/grade_agent.py
+/scripts/make_public_release.py
+/scripts/precompute_lut.py
+/scripts/precompute_pdb.py
+/tests/test_boss*.py
+

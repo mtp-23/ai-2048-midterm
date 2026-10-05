@@ -1,0 +1,5 @@
+numpy>=1.24
+pytest>=7.4
+
+# UI dùng tkinter thường đi kèm bộ cài Python; không cần package GUI qua pip.
+
