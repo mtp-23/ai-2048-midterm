@@ -6,6 +6,10 @@ kế heuristic, search và chiến lược phân bổ thời gian trong thư m�
 
 Project chạy CPU bằng Python, không yêu cầu Conda và không cần GPU.
 
+<p align="center">
+  <img src="assets/ui-preview.png" alt="Giao diện khởi đầu 2048 AI Arena" width="900">
+</p>
+
 ## Tính năng
 
 - Engine 2048 chuẩn, deterministic theo seed;
@@ -82,6 +86,7 @@ nghĩ cho mỗi ván**, không đặt giới hạn cố định cho từng nư�
 ├── INSTALLATION.md
 ├── requirements.txt
 ├── pyproject.toml
+├── assets/ui-preview.png  # ảnh giao diện dùng trong README
 ├── src/game2048/          # engine và API công khai
 ├── student/
 │   ├── agent.py           # file sinh viên bắt đầu sửa
