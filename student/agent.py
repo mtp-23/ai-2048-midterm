@@ -15,7 +15,7 @@ from game2048.types import Move
 
 class Agent:
     # Đổi tên này thành tên đội; nó sẽ xuất hiện trong UI và file kết quả.
-    name = "starter-one-ply"
+    name = "group-5-ai4"
 
     def reset(self, seed: int | None = None) -> None:
         """Xóa cache/trạng thái giữa hai ván nếu thuật toán của bạn có dùng."""
