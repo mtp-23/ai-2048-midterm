@@ -175,6 +175,7 @@ class Agent:
 
         # time_limit_ms may be the remaining budget for the whole game.
         # A cap leaves enough budget for many future turns.
+        #
         budget_ms = max(1.0, min(float(time_limit_ms) * 0.9, 75))
         self._deadline = time.perf_counter() + budget_ms / 1000.0
         self._nodes = 0
