@@ -50,8 +50,8 @@ tên môi trường không quan trọng và không ảnh hưởng việc chấm.
 ## 4. Chạy lần đầu
 
 ```powershell
-python scripts/play.py --seed 42
-python scripts/benchmark_agent.py --agent student.agent:Agent --seeds 1 --start-seed 42 --total-time-sec 5
+python3 scripts/play.py --seed 42
+python3 scripts/benchmark_agent.py --agent student.agent:Agent --seeds 1 --start-seed 42 --total-time-sec 5
 ```
 
 ## 5. Lỗi thường gặp
