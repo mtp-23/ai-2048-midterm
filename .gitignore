@@ -18,4 +18,3 @@ results/*.jsonl
 /scripts/precompute_lut.py
 /scripts/precompute_pdb.py
 /tests/test_boss*.py
-
